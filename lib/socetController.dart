@@ -2,8 +2,6 @@ import 'package:get/get.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;
 
 import 'Constants/api_constants.dart';
-import 'app/modules/home/controllers/home_controller.dart';
-import 'app/modules/message_screen/controllers/message_screen_controller.dart';
 
 class SocketController extends GetxController {
   RxList<UserData> userDataList = RxList<UserData>([]);
